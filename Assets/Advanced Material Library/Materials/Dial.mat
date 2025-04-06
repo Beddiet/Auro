@@ -1,0 +1,174 @@
+- !<Material/97c84565-fd54-411b-8051-37821bcaf0cb>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 8953e779-23cb-457b-bbc4-ff68e13c1765
+- !<PassInfo/8953e779-23cb-457b-bbc4-ff68e13c1765>
+  CachedProperties:
+    - Port_AO_N090:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_LODValue_N205:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Normal_N009:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_Normal_N090:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_Output_N030:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - noiseTextureBorderColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - noiseTextureDims:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - noiseTextureUvMinMax:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - normalizeScale
+  BlendMode: Disabled
+  Properties:
+    Intensity:
+      typeIdx: 1
+      value: 15.000000
+    Port_AO_N009:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Albedo_N090:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Emissive_N009:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Emissive_N090:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Import_N054:
+      typeIdx: 1
+      value: 20.000000
+    Port_Import_N206:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Import_N209:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N014:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N018:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N019:
+      typeIdx: 5
+      value: {x: 0.500008, y: 0.500008, z: 0.500008, w: 1.000000}
+    Port_Input1_N044:
+      typeIdx: 5
+      value: {x: 0.100000, y: 0.100000, z: 0.100000, w: 0.000000}
+    Port_Input1_N208:
+      typeIdx: 1
+      value: 0.100000
+    Port_Input2_N018:
+      typeIdx: 1
+      value: 1.000000
+    Port_Metallic_N009:
+      typeIdx: 1
+      value: 0.000000
+    Port_Metallic_N090:
+      typeIdx: 1
+      value: 0.000000
+    Port_Opacity_N009:
+      typeIdx: 1
+      value: 1.000000
+    Port_Opacity_N090:
+      typeIdx: 1
+      value: 0.000000
+    Port_SpecularAO_N009:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_SpecularAO_N090:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 0.986435, y: 0.098512, z: 0.067887, w: 1.000000}
+    baseRoughness:
+      typeIdx: 1
+      value: 0.750000
+    clearRoughness:
+      typeIdx: 1
+      value: 0.000000
+    fresnelColor:
+      typeIdx: 5
+      value: {x: 0.979995, y: 0.210849, z: 0.000000, w: 1.000000}
+    glitterColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    noiseTexture:
+      typeIdx: 9
+      value:
+        id: b4af4fa6-14a7-43b8-a083-32db54d016ad
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+          mipmaps: true
+        type: Texture2D
+    noiseTextureTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    scale:
+      typeIdx: 1
+      value: 1.130100
+  Pass: !<reference> 9f643551-2925-4ac2-902f-3b15003592de
