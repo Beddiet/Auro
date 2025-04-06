@@ -1,75 +1,55 @@
-# Spatial Persistence
+# AURO – Illuminate Your Potential
 
-[![Spatial Anchors](https://img.shields.io/badge/Spatial%20Anchors-Light%20Gray?color=D3D3D3)](https://developers.snap.com/spectacles/about-spectacles-features/apis/spatial-anchors?) [![SIK](https://img.shields.io/badge/SIK-Light%20Gray?color=D3D3D3)](https://developers.snap.com/spectacles/spectacles-frameworks/spectacles-interaction-kit/features/overview?) [![Persistent Storage](https://img.shields.io/badge/Persistent%20Storage-Light%20Gray?color=D3D3D3)](https://developers.snap.com/lens-studio/features/persistent-cloud-storage/overview?) [![Multiplayer](https://img.shields.io/badge/Multiplayer-Light%20Gray?color=D3D3D3)](https://developers.snap.com/lens-studio/features/lens-cloud/lens-cloud-overview?)
+AURO transforms traditional brainstorming into an immersive journey of discovery. Leveraging cutting-edge AR technology—including the revolutionary 5th generation Snapchat Spectacles—AURO empowers you to extract ideas from your mind and visualize them in a dynamic, spatial notebook. In a world overwhelmed by digital distractions, AURO is designed to help you reclaim focus, prioritize ideas, and turn intentional thought into action.
 
-<img src="./README-ref/sample-list-spatial-persistance-rounded-edges.gif" alt="spatial-persistance" width="500" />
+---
 
-## Overview
+## GT Immerse Hackathon
 
-This is a template project which uses the Spectacles [Spatial Anchor API](https://developers.snap.com/spectacles/about-spectacles-features/apis/spatial-anchors).
+This project was developed in just **36 hours** as a solo dev initiative during the GT Immerse Hackathon. Inspired by the hackathon theme **"Illuminate"**, I set out to build a platform that harnesses the power of conscious thought and innovative AR to cut through the digital noise.
 
-> **NOTE:**
-> This project will only work for the Spectacles platform.
+---
 
-## Design Guidelines
+## Concept Overview
 
-Designing Lenses for Spectacles offers all-new possibilities to rethink user interaction with digital spaces and the physical world.
-Get started using our [Design Guidelines](https://developers.snap.com/spectacles/best-practices/design-for-spectacles/introduction-to-spatial-design)
+- **The Power of Conscious Thought:**  
+  In a time of constant digital overload and distraction, authentic, intentional creativity remains our most powerful medium. AURO is built to remind us of this truth.
 
-## Prerequisites
+- **AURO’s Promise:**  
+  By turning the creative process into an engaging, interactive exercise, AURO refines and prioritizes your ideas. It transforms brainstorming into a spatial journey—helping you distinguish what truly matters.
 
-- **Lens Studio**: v5.4.0+
-- **Spectacles OS Version**: v5.59.218+
-- **Spectacles App iOS**: v0.59.1.1+
-- **Spectacles App Android**: v0.59.1.1+
+- **Cutting-Edge Tech:**  
+  The app takes full advantage of advanced AR capabilities provided by the 5th generation Snapchat Spectacles. This technology, paired with dual-device interaction, offers a seamless experience between immersive AR visualization and quick idea input on a companion device.
 
-To update your Spectacles device and mobile app, refer to this [guide](https://support.spectacles.com/hc/en-us/articles/30214953982740-Updating).
+- **Digital Overload & Distraction:**  
+  With endless streams of content and dopamine-driven habits filling our lives, it has become harder than ever to focus on meaningful ideas. AURO provides a dedicated space to escape the digital noise and concentrate on what is truly important.
 
-You can download the latest version of Lens Studio from [here](https://ar.snap.com/download?lang=en-US).
+---
 
-## Getting the project
+## MVP & Design Strategy
 
-To obtain the project folder, you need to clone the repository.
+The minimal viable product (MVP) of AURO follows a simple three-color strategy to help users prioritize their ideas:
+- **Red:** Ideas of least importance.
+- **Yellow:** Mid-level priority ideas.
+- **Green:** High-priority ideas that are ready to be pursued.
 
-> **IMPORTANT**:
-> This project uses Git Large Files Support (LFS). Downloading a zip file using the green button on Github
-> **will not work**. You must clone the project with a version of git that has LFS.
-> You can download Git LFS here: https://git-lfs.github.com/.
+This intuitive color-coded approach supports users in sifting through a myriad of thoughts to uncover the ideas that matter most.
 
-## Initial Project Setup
+---
 
-The project should be pre-configured to get you started without any additional steps. However, if you encounter issues in the Logger Panel, please ensure your Lens Studio environment is set up for [Spectacles](https://developers.snap.com/spectacles/get-started/start-buiding/preview-panel).
+## Tools & Technologies
 
-## Key Script
+During development, I integrated a range of innovative tools and platforms:
+- **Lens Studio:** To bring AR experiences to life.
+- **Snapchat Spectacles:** For immersive, on-the-go AR visualization.
+- **ChatGPT & Cursor:** AI-driven tools that aided in rapid ideation.
+- **3D Model Generation:** Leveraging Meshi AI and Cinema 4D to create dynamic, spatial elements.
+- **Adobe Creative Suite:** For crafting a sleek and modern visual interface.
 
-[AreaManager.ts](./Assets/TemplateCode/AreaManager.ts) - This is the primary script that integrates different behaviours with the UI.
-[AnchorManager.ts](./Assets/TemplateCode/SpatialPersistence/AnchorManager.ts) - Primary script for managing the anchor behaviours
+---
 
-#### Spatial Persistence
+## Final Thoughts
 
-Exit the lens and open it again. If the same area is selected, the previously created notes will spawn in the same position in the space.
+AURO is more than just an app—it’s a platform that redefines the creative process. In an era of endless distractions and digital overload, AURO helps you channel your most authentic ideas and turn them into actionable insights. Whether you have a flood of ideas or just a single spark, AURO illuminates your path to what truly matters.
 
-#### Voice Dictation
-
-After a post-in note is created, select the microphone button on the top left corner to enable voice input. Say some words and it will turn into text and appear on the note.
-
-## Testing the Lens
-
-### In Lens Studio Editor
-
-In the [Interactive Preview Panel](https://developers.snap.com/lens-studio/lens-studio-workflow/previewing-your-lens#interactive-preview). Click on the **New Area** button in the area selection menu with the left mouse button. A panel will then show up where user can drag different post-it notes to the scene. Click on the **Main Menu** to go back to the area selection menu.
-
-### In Spectacles Device
-
-To install your Lens on your device, refer to the guide provided [here](https://developers.snap.com/spectacles/get-started/start-buiding/test-lens-on-spectacles).
-
-After successfully installing the Lens, Select the **New Area** button with the pinch gesture. The localization process should begin with a prompt text appeared informing the user to look around. After the localization completes, a panel will then show up where user can drag different post-it notes to the scene. Click on the **Main Menu** to go back to the area selection menu.
-
-## Support
-
-If you have any questions or need assistance, please don't hesitate to reach out. Our community is here to help, and you can connect with us and ask for support [here](https://www.reddit.com/r/Spectacles/). We look forward to hearing from you and are excited to assist you on your journey!
-
-## Contributing
-
-Feel free to provide improvements or suggestions or directly contributing via merge request. By sharing insights, you help everyone else build better Lenses.# Auro
-# Auro
+Your feedback and contributions are welcome as we continue to refine and expand this concept. Thank you for exploring AURO.
